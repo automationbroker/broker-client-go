@@ -241,7 +241,7 @@ type BundleInstanceSpec struct {
 
 // Context is the context for the ServiceInstance.
 type Context struct {
-	Plateform string `json:"plateform"`
+	Platform  string `json:"platform"`
 	Namespace string `json:"namespace"`
 }
 
